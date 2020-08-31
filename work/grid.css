@@ -1,0 +1,12 @@
+.emeka > div {
+    display:grid ;
+     grid-template-columns:30% 40% 30%;
+  
+}
+.emeka >div:nth-child(odd){
+    background:#ddd;
+}
+.emeka >div{
+    background:#eee;
+    padding:1em;
+}
